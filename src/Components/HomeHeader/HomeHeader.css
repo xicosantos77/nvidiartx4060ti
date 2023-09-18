@@ -1,0 +1,65 @@
+.homeHeader-wrapper {
+  background-image: url("../../Assets/Images/Homeheader/rtx4060tibackground.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  height: 80vh;
+}
+.homeHeader-wrapper .homeHeader-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  left: 10%;
+}
+.homeHeader-wrapper .homeHeader-text h1, .homeHeader-wrapper .homeHeader-text h3, .homeHeader-wrapper .homeHeader-text p {
+  color: white;
+  margin: 0;
+}
+.homeHeader-wrapper .homeHeader-text .homeHeader-text-title {
+  font-size: larger;
+}
+.homeHeader-wrapper .homeHeader-text .homeHeader-text-title h1 {
+  margin-top: 40px;
+}
+.homeHeader-wrapper .homeHeader-text .homeHeader-text-subtitle {
+  font-size: larger;
+  margin-top: 20px;
+}
+.homeHeader-wrapper .homeHeader-text .homeHeader-text-desc {
+  margin-top: 20px;
+  width: 50%;
+  line-height: 1.4;
+}
+.homeHeader-wrapper .homeHeader-text .homeHeader-text-button {
+  margin-top: 20px;
+}
+.homeHeader-wrapper .homeHeader-text .homeHeader-text-button button {
+  width: 180px;
+  height: 50px;
+  background-color: #76b900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #232536;
+  border-style: none;
+  border-radius: 0px;
+  margin-top: 20px;
+}
+.homeHeader-wrapper .homeHeader-text .homeHeader-text-button button:hover {
+  background-color: #558600;
+  transform: scale(1.1);
+  transition: ease 0.5s;
+  font-weight: bold;
+  border: 1px solid #232523;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.homeHeader-wrapper .homeHeader-text .homeHeader-text-button button:not(:hover) {
+  transition: ease 0.5s;
+}
+.homeHeader-wrapper .homeHeader-text .homeHeader-text-logo {
+  position: relative;
+  top: 100px;
+  right: 20px;
+}
+.homeHeader-wrapper .homeHeader-text .homeHeader-text-logo img {
+  width: 200px;
+}/*# sourceMappingURL=HomeHeader.css.map */

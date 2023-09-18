@@ -1,0 +1,74 @@
+.homeSpecs-wrapper {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.homeSpecs-wrapper h1, .homeSpecs-wrapper h3, .homeSpecs-wrapper p {
+  margin: 0;
+  color: white;
+}
+.homeSpecs-wrapper .homeSpecs-titles {
+  text-align: center;
+}
+.homeSpecs-wrapper .homeSpecs-titles .homeSpecs-titles-1 {
+  margin-top: 60px;
+}
+.homeSpecs-wrapper .homeSpecs-titles .homeSpecs-titles-2 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.homeSpecs-wrapper .homeSpecs-desc {
+  display: flex;
+  justify-content: center;
+}
+.homeSpecs-wrapper .homeSpecs-desc .homeSpecs-desc-img {
+  width: 30%;
+}
+.homeSpecs-wrapper .homeSpecs-desc .homeSpecs-desc-text {
+  width: 40%;
+  margin-left: 60px;
+}
+.homeSpecs-wrapper .homeSpecs-desc .homeSpecs-desc-text .homeSpecs-desc-text-spec {
+  margin-top: 20px;
+}
+.homeSpecs-wrapper .homeSpecs-desc .homeSpecs-desc-text .homeSpecs-desc-text-spec p {
+  margin-top: 10px;
+  line-height: 1.3;
+}
+.homeSpecs-wrapper .homeSpecs-specs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  width: 60%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.homeSpecs-wrapper .homeSpecs-specs .homeSpecs-specs-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.homeSpecs-wrapper .homeSpecs-specs .homeSpecs-specs-item img {
+  margin-bottom: 10px;
+}
+.homeSpecs-wrapper .homeSpecs-specs .homeSpecs-specs-item h3 {
+  margin-bottom: 10px;
+}
+.homeSpecs-wrapper .homeSpecs-specs .homeSpecs-specs-item:hover h3, .homeSpecs-wrapper .homeSpecs-specs .homeSpecs-specs-item:hover p {
+  transition: all 0.5s ease;
+  color: #76b900;
+  transform: scale(1.05);
+}
+.homeSpecs-wrapper .homeSpecs-specs .homeSpecs-specs-item:not(:hover) h3, .homeSpecs-wrapper .homeSpecs-specs .homeSpecs-specs-item:not(:hover) p {
+  transition: all 0.5s ease;
+}
+.homeSpecs-wrapper .homeSpecs-divisor {
+  width: 60%;
+  height: 2px;
+  background-color: #76b900;
+}/*# sourceMappingURL=HomeSpecs.css.map */

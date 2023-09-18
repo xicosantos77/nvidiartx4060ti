@@ -1,0 +1,40 @@
+.HomeImages-wrapper{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .homeImages-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .homeImages-div-titlesm{
+            margin-top: 60px;
+        }
+
+        .homeImages-div-titlesm, .homeImages-div-titlebg{
+            margin-bottom: 20px;
+        }
+
+        .homeImages-div-desc{
+            width: 60%;
+            line-height: 1.3;
+            margin-bottom: 20px;
+        }
+
+        .homeImages-div-img{
+            img{
+                width: 120%;
+            }
+        }
+    }
+
+
+    h3, h1, p{
+        color: white;
+        margin: 0;
+    }
+}

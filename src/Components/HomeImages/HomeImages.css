@@ -1,0 +1,31 @@
+.HomeImages-wrapper {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.HomeImages-wrapper .homeImages-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.HomeImages-wrapper .homeImages-div .homeImages-div-titlesm {
+  margin-top: 60px;
+}
+.HomeImages-wrapper .homeImages-div .homeImages-div-titlesm, .HomeImages-wrapper .homeImages-div .homeImages-div-titlebg {
+  margin-bottom: 20px;
+}
+.HomeImages-wrapper .homeImages-div .homeImages-div-desc {
+  width: 60%;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+.HomeImages-wrapper .homeImages-div .homeImages-div-img img {
+  width: 120%;
+}
+.HomeImages-wrapper h3, .HomeImages-wrapper h1, .HomeImages-wrapper p {
+  color: white;
+  margin: 0;
+}/*# sourceMappingURL=HomeImages.css.map */
